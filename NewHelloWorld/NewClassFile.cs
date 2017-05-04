@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace NewHelloWorld
 {
-    class Program
+    class NewClassFile
     {
-        static void Main(string[] args)
+        public static void DoHelloWorldThingy()
         {
-            // This comment is a test
-            NewClassFile.DoHelloWorldThingy();
+            Console.WriteLine("Hello World Thingy");
         }
     }
 }
